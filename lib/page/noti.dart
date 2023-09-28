@@ -14,15 +14,15 @@ class _NotiState extends State<Noti> {
       appBar: AppBar(
         title: const Text('Notice'),
       ),
-      body:  Column(
+      body: Column(
         children: [
-          CustomCol('Exam', '27th Kartik',context),
-          CustomCol('Parents Meeting', '10th Mangsir',context),
-          CustomCol('ECA', '20th Kartik',context),
-          CustomCol('Exibition', '21st Kartik',context),
-          CustomCol('Praents Day', '21st Paush',context),
-          CustomCol('Cultural Program', '30th Paush',context),
-          ],
+          CustomCol('Exam', '27th Kartik', context),
+          CustomCol('Parents Meeting', '10th Mangsir', context),
+          CustomCol('ECA', '20th Kartik', context),
+          CustomCol('Exibition', '21st Kartik', context),
+          CustomCol('Parents Day', '21st Push', context),
+          CustomCol('Cultural Program', '30th Push', context),
+        ],
       ),
     );
   }
@@ -40,8 +40,7 @@ Container CustomCol(text, price, context) {
     child: Row(
       children: [
         Container(
-          width: MediaQuery.of(context).size.width * 0.7,
-          child: Text(text)),
+            width: MediaQuery.of(context).size.width * 0.7, child: Text(text)),
         Text(price),
       ],
     ),

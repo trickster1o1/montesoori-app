@@ -100,11 +100,11 @@ class _NoticesState extends State<Notices> {
                               children: [
                                 Container(
                                   width: MediaQuery.of(context).size.width * .7,
-                                  child: Text(a['name']),
+                                  child: Text(a['name'] ?? 'loading....'),
                                 ),
                                 Container(
                                   width: MediaQuery.of(context).size.width * .2,
-                                  child: Text(a['presence']),
+                                  child: Text(a['presence'] ?? 'loading....'),
                                 ),
                               ],
                             ),
