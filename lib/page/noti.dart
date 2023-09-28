@@ -20,8 +20,8 @@ class _NotiState extends State<Noti> {
           CustomCol('Parents Meeting', '10th Mangsir', context),
           CustomCol('ECA', '20th Kartik', context),
           CustomCol('Exibition', '21st Kartik', context),
-          CustomCol('Parents Day', '21st Push', context),
-          CustomCol('Cultural Program', '30th Push', context),
+          CustomCol('Parents Day', '21st Poush', context),
+          CustomCol('Cultural Program', '30th Poush', context),
         ],
       ),
     );

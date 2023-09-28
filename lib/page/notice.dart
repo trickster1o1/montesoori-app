@@ -74,7 +74,7 @@ class _NoticesState extends State<Notices> {
                   Container(
                     width: MediaQuery.of(context).size.width * .2,
                     child: Text(
-                      'Presence',
+                      'present',
                       style: TextStyle(fontWeight: FontWeight.bold),
                     ),
                   ),

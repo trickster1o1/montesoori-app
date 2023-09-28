@@ -21,7 +21,18 @@ class _MyHomeState extends State<MyHome> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Kids Montesori'),
+          title: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text('Kids Montesori'),
+              InkWell(
+                onTap: () {
+                  Navigator.pushNamed(context, '/about');
+                },
+                child: Icon(Icons.person),
+              ),
+            ],
+          ),
         ),
         body: SingleChildScrollView(
           child: Container(
